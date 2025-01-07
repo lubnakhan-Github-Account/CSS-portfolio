@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --background-gray:#f3c074;
+  --background-black:#b2ee6e;
+  --background-light-gray:#f0ee85;
+  --logo-color:#e92a3a;
+  --button-color:#5E503F;
+  --hover-color:#7D674C;
+}
+body{
+  color:white;
+}

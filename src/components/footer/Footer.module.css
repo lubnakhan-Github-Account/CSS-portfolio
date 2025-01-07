@@ -1,0 +1,14 @@
+.foot{
+    width:100%;
+    background-color: var(--background-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}
+.foot h3{
+    font-size: 24px;
+    line-height: 24px;
+    color:var(--logo-color);
+
+}

@@ -1,0 +1,30 @@
+.service{
+    width:100%;
+    background-color: var(--background-gray);
+    text-align: center;
+    padding: 9.625rem 2.5rem 10rem 2.5rem;
+}
+.service h2{
+  font-size: 48px;
+  line-height: 48px;
+  color:var(--logo-color);
+  margin-bottom: 24px;
+}
+.service p{
+    font-size: 16.73px;
+    margin-bottom: 80px;
+}
+.sercard{
+    width:100%;
+    display: grid;
+    gap:16px;
+    grid-template-columns: repeat(4,1fr);
+}
+/* ---------------------------------------- */
+
+@media(max-width:390px){
+    .sercard{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+    

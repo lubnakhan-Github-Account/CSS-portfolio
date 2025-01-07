@@ -1,0 +1,20 @@
+
+.bottomimg{
+    width:100%;
+    background-color: var(--background-gray);
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap:64px;
+    align-items: center;
+
+}
+ 
+@media(max-width: 390px){
+    .bottomimg{
+        padding: 32px ;
+        flex-wrap: wrap;
+        gap:38px;
+    }
+
+}

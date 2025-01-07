@@ -1,0 +1,41 @@
+/* ecard css---------------------- */
+.ecard{
+ flex: 0 0 calc((100% - 64px) / 3);
+padding: 34px 28.5px 56px 28.5px;
+background-color: var(--background-gray);
+text-align: center;
+border-top: 2px solid #A9927D;
+font-size: 15px;
+margin-right: 32px;
+}
+
+.cardimg{
+    width:128px; 
+    height:150px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+
+    border: 2px solid #A9927D;
+    margin: auto;
+    margin-bottom: 16px;
+}
+.ecard h3 ,.ecard p{
+    margin-bottom: 16px;
+}
+
+@media(max-width:768px){
+    .ecard{
+        flex:0 0 calc((100% -32px) /2)
+    }
+}
+
+
+@media(max-width:390px){
+   .ecard{
+    flex :0 0 calc((100% -32px ) /1);
+    padding:34px 80px;
+   } 
+}
+

@@ -1,0 +1,29 @@
+.port{
+    width:100%;
+    background-color: var(--background-black);
+    text-align: center;
+    padding:144px 32px;
+}
+.port h2{
+    margin-bottom:24px ;
+    font-size: 48px;
+    line-height: 48px;
+    color:var(--logo-color);
+}
+.port p{
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 96px;
+}
+.port .work{
+    width:100%;
+    display: grid;
+    gap:95px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media(max-width:390px){
+   .port .work {
+    grid-template-columns: repeat(1,1fr);
+    }
+}

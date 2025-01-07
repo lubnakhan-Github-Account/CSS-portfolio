@@ -1,0 +1,23 @@
+.carddiv{
+    padding: 24px 16px;
+    background-color: var(--background-light-gray);
+    text-align: start;
+    &:hover{
+        background-color: #444444;
+    }
+}
+.scard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.carddiv h2{
+    font-size: 22.5px;
+    line-height: 32px;
+    margin-bottom: 15.5px;
+}
+.carddiv p{
+    font-size: 15px;
+    line-height: 24px;
+}
